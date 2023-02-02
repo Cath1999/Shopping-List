@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdditemComponent implements OnInit {
 
+title:string='';
+price:number=0;
+quantity:number=0;
+
+
   constructor() { }
 
   ngOnInit(): void {
