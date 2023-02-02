@@ -6,6 +6,8 @@ import { ItemComponent } from './components/item/item.component';
 import { ItemsComponent } from './components/items/items.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TotalComponent } from './components/total/total.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AdditemComponent } from './components/additem/additem.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { TotalComponent } from './components/total/total.component';
     ItemComponent,
     ItemsComponent,
     HeaderComponent,
-    TotalComponent
+    TotalComponent,
+    AdditemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
