@@ -28,11 +28,11 @@ quantity:number=0;
     item.id =  this.id;
     item.title  = this.title;
     item.price = this.price;
-    this.quantity = this.quantity;
+    item.quantity = this.quantity;
     item.completed = false;
 
     this.itemServiceAdd.addItem(item);
-    this.router.navigate(['/'])
+    this.router.navigate(['/']);
   }
 
 }

@@ -17,6 +17,7 @@ export class ItemsComponent implements OnInit {
 
     // this.items = [];
 this.items = this.itemService.getItems();
+
     this.getTotal();
   }
 
